@@ -1,0 +1,885 @@
+
+/* Our Team */
+.container-career{
+    background: #F1F6F6;
+    width: 100%;
+    height: 195.05vw;
+    position: relative;
+}
+
+/* Our Team Top */
+.ourteam-top{
+    width: 100%;
+    height: 56.56vw;
+    position: relative;
+}
+.ourteam-title{
+    position: absolute;
+    width: 18.5vw;
+    height: 3.85vw;
+    left: 19.27vw;
+    top: 9.38vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.33vw;
+    line-height: 3.85vw;
+    letter-spacing: 0.15625vw;
+    color: #1D1D1D;
+}
+.ourteam-description{
+    position: absolute;
+    width: 53.75vw;
+    height: 5vw;
+    left: 19.27vw;
+    top: 14.27vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.66vw;
+    letter-spacing: 0.015625vw;
+    color: #5F6161;
+}
+.image-background{
+    position: absolute;
+    width: 61.45vw;
+    height: 32.2vw;
+    left: 19.27vw;
+    top: 23.75vw;
+}
+.image-background-mobile{
+    display: none;
+}
+
+/* Our Team Bottom */
+.ourteam-bottom{
+    width: 100%;
+    height: 38.55vw;
+    position: relative;
+}
+
+.ourteam-work{
+    position: absolute;
+    width: 18.23vw;
+    height: 6.25vw;
+    left: 19.27vw;
+    top: 10.4vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6vw;
+    line-height: 3.125vw;
+    color: #1D1D1D;
+}
+.ourteam-work-description{
+    position: absolute;
+    width: 31.92vw;
+    height: 5vw;
+    left: 48.8vw;
+    top: 11.25vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.66vw;
+    letter-spacing: 0.015625vw;
+    color: #5F6161;
+}
+.card-ourteam_1{
+    position: absolute;
+    width: 10.94vw;
+    height: 12.5vw;
+    left: 19.27vw;
+    top: 21.87vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.card-ourteam_2{
+    position: absolute;
+    width: 10.94vw;
+    height: 12.5vw;
+    top: 21.87vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+    left: 31.87vw;
+    
+}
+
+.card-ourteam_3{
+    position: absolute;
+    width: 10.94vw;
+    height: 12.5vw;
+    top: 21.87vw;
+    left: 44.48vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.card-ourteam_4{
+    position: absolute;
+    width: 10.94vw;
+    height: 12.5vw;
+    top: 21.87vw;
+    left: 57.1vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.card-ourteam_5{
+    position: absolute;
+    width: 10.94vw;
+    height: 12.5vw;
+    top: 21.87vw;
+    left: 69.69vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.div_circle {  
+    border: 0.01px solid green;
+    border-radius: 50%;
+    height: 3.125vw;
+    width: 3.125vw;
+    background-color:  #a2dfc290;   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.04vw;
+    margin-left: 1.04vw;
+}
+.icon{
+    font-Size: 1.875vw;
+    color:green;
+}
+.container-opportunities{
+    width: 100%;
+    height: 45.15vw;
+    position: relative;
+}
+.content-opportunities{
+    z-index: 1;
+}
+.card-ourteam-description{
+    width: 8.85vw;
+    height: 2.5vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.84vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.015625vw;
+    color: #1D1D1D;
+}
+
+/* Opportunities */
+
+.opportunities-title{
+    position: absolute;
+    width: 26.45vw;
+    height: 2.86vw;
+    left: 36.77vw;
+    top: 4.15vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6vw;
+    line-height: 2.86vw;
+    text-align: center;
+    letter-spacing: -0.078125vw;
+    color: #1D1D1D;
+}
+.opportunities-description{
+    position: absolute;
+    width: 31.41vw;
+    height: 1.67vw;
+    left: 35.2vw;
+    top: 8.6vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.66vw;
+    text-align: center;
+    letter-spacing: 0.015625vw;
+    color: #1D1D1D;
+}
+.container-oppcard_1{
+    position: absolute;
+    width: 47.92vw;
+    height: 4.69vw;
+    left: 26.05vw;
+    top: 14.42vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(34, 47, 62, 0.05);
+}
+.container-oppcard_2{
+    position: absolute;
+    width: 47.92vw;
+    height: 4.69vw;
+    left: 26.05vw;
+    top: 20.67vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(34, 47, 62, 0.05);
+}
+.container-oppcard_3{
+    position: absolute;
+    width: 47.92vw;
+    height: 4.69vw;
+    left: 26.05vw;
+    top: 26.92vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(34, 47, 62, 0.05);
+}
+.oppCard-text{
+position: absolute;
+width: 58.47vw;
+height: 3.26vw;
+left: 3.26vw;
+top: 1.55vw;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 1.04vw;
+line-height: 1.5625vw;
+color: #1D1D1D;
+}
+
+.see-detail{ 
+    box-sizing: border-box;
+    position: absolute;
+    width: 6.98vw;
+    height: 2.24vw;
+    left: 39.38vw;
+    top: 1.25vw;
+    background: #FFFFFF;
+    border: 1px solid #16774A;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.oppCard-text-mobile_1{ display: none;}
+.oppCard-text-mobile_2{ display: none;}
+
+
+.see-text{ 
+    font-weight: 500;
+    font-size:  0.73vw;
+    line-height :1.2vw;
+    letter-spacing: 0.052vw;
+    text-align:  center;
+    color: #16774A;
+  }
+  .footer-carrer{
+    position: absolute;
+    width: 1920px;
+    height: 532px;
+    left: 0px;
+    top: 3213px;
+    background: #004632;
+    }
+
+    /* Ready Part */
+
+.container-ready{
+    width: 100%;
+    height: 29.16vw;
+    background-color: #16774A;
+    position: relative;
+}
+.readyPart-text{
+    position: absolute;
+    width: 21.98vw;
+    height: 7.8125vw;
+    left: 19.27vw;
+    top: 5.2vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.083vw;
+    line-height: 2.6vw;
+    letter-spacing: 0.015625vw;
+    color: #FFFFFF;
+}
+.readyPart-sendUs{
+    position: absolute;
+    width: 17.24vw;
+    height: 1.875vw;
+    left: 19.27vw;
+    top: 14.0625vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.875vw;
+    color: #FFFFFF;
+}
+
+.container-icon-readyPart{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 19.27vw;
+    top: 18.02vw;
+    background-color:#1c6350;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gmail-readypart{
+    position: absolute;
+    width: 14.59vw;
+    height: 1.25vw;
+    left: 22.8125vw;
+    top:18.64vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.25vw;
+    letter-spacing: -0.026vw;
+    color: #FFFFFF;
+}
+.image-ready-opprtunities{
+    position: absolute;
+    width: 31.25vw;
+    height: 31.25vw;
+    left: 49.47vw;
+    top: -7.3vw;
+}
+.icon-mail-readypart{
+    font-size: 1.25vw;
+    color: white;
+ 
+ }
+
+/* Rectangle */
+
+.squad_career_1{ 
+    position: absolute;
+    width: 40.9375vw;
+    height: 20.99vw;
+    left: 58.03vw;
+    top: 36.61vw;
+    background: #009D53;
+    opacity: 0.1;
+
+}
+.squad_career_2{
+    position: absolute;
+    width: 13.59375vw;
+    height: 13.59375vw;
+    left: 10.57vw;
+    top: 61.04vw;
+    background: #009D53;
+    opacity: 0.3;
+    border-radius: 0.52vw;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.squad_career_3{
+   
+    position: absolute;
+    width: 5.92vw;
+    height: 5.92vw;
+    left: 21.15vw;
+    top: 58.23vw;
+    opacity: 0.5;
+    border: 0.104vw solid #009D53;
+    border-radius: 0.52vw;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.squad_career_4{
+    position: absolute;
+    width: 100vw;
+    height: 50vw;
+    left: 0vw;
+    top: 45.1vw;
+    background: #FFFFFF;
+}
+.squad_career_5{
+    position: absolute;
+    width: 20.83vw;
+    height: 20.83vw;
+    left: 12.5vw;
+    top: 121.5vw;
+    background: #009D53;
+    opacity: 0.3;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.squad_career_6{
+    position: absolute;
+    width: 9.63vw;
+    height: 9.63vw;
+    left: 27.08vw;
+    top: 129.16vw;
+    opacity: 0.5;
+    border: 0.104vw solid #009D53;
+    border-radius: 0.52vw;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+
+.squad_ready_01{
+    position: absolute;
+    width: 11.2vw;
+    height: 12.75vw;
+    left: 43.9vw;
+    top: 15vw;
+    background: #FFFFFF;
+    opacity: 0.05;
+    border-radius: 1.04vw;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.squad_ready_02{
+    position: absolute;
+    width: 27.91vw ;
+    height: 29.16vw;
+    left: 71.08vw;
+    top : 0px;
+    background: #129C5C;
+
+}
+.squad_ready_03{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 74.21vw;
+    top: 3.23vw;
+    background: #FFFFFF;
+    opacity: 0.1;
+    border-radius: 1.04vw;
+}
+.line-career{
+position: absolute;
+width: 61.45vw;
+height: 0px;
+left: 19.27vw;
+top: 75.83vw;
+border: 1px solid #DEDEDE;
+} 
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 376px) {
+/* Our Team */
+.container-career{
+    background: #F1F6F6;
+    width: 375px;
+    height: 5083px;
+    position: relative;
+}
+
+/* Our Team Top */
+.ourteam-top{
+    width: 375px;
+    height: 917px;
+    position: relative;
+}
+.ourteam-title{ 
+    position: absolute;
+    width: 325px;
+    height: 50px;
+    left: 30px;
+    top: 112px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 110%;
+    letter-spacing: -1px;
+    color: #1D1D1D;
+}
+.ourteam-description{
+    position: absolute;
+    width: 315px;
+    height: 290px;
+    left: 30px;
+    top: 192px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.3px;
+    color: #5F6161;
+}
+.image-background{
+   display: none;
+}
+.image-background-mobile{
+    display: block;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 0px;
+    top: 542px;
+}
+
+/* Our Team Bottom */
+.ourteam-bottom{
+    width: 375px;
+    height: 1045px;
+    position: relative;
+}
+
+.ourteam-work{
+    position: absolute;
+    width: 315px;
+    height: 96px;
+    left: 30px;
+    top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+}
+.ourteam-work-description{
+    position: absolute;
+    width: 315px;
+    height: 174px;
+    left: 30px;
+    top: 226px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+letter-spacing: 0.3px;
+
+color: #5F6161;
+}
+.card-ourteam_1{
+    position: absolute;
+    width: 325px;
+    height: 115px;
+    left: 25px;
+    top: 491px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.card-ourteam_2{
+    position: absolute;
+    width: 325px;
+    height: 115px;
+    left: 25px;
+    top: 636px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+    
+}
+
+.card-ourteam_3{
+     position: absolute;
+    width: 325px;
+    height: 115px;
+    left: 25px;
+    top: 781px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.card-ourteam_4{
+    position: absolute;
+    width: 325px;
+    height: 115px;
+    left: 25px;
+    top: 926px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.card-ourteam_5{
+     position: absolute;
+    width: 325px;
+    height: 115px;
+    left: 25px;
+    top: 1701px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(34, 47, 62, 0.1);
+}
+.div_circle {  
+    border: 0.01px solid green;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color:  #a2dfc290;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    top : 30px
+    
+}
+.icon{
+    font-size: 24px;
+    color:green;
+}
+
+.content-opportunities{
+    z-index: 1;
+}
+.card-ourteam-description{
+    position: absolute;
+    width: 170px;
+    height: 48px;
+    left: 105px;
+    top: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #1D1D1D;
+}
+
+/* Opportunities */
+.container-opportunities{
+    width: 375px;
+    height: 1255px;
+    position: relative;
+    
+}
+.opportunities-title{
+    position: absolute;
+    width: 315px;
+    height: 96px;
+    left: 30px;
+    top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+.opportunities-description{
+    position: absolute;
+    width: 315px;
+    height: 58px;
+    left: 30px;
+    top: 211px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #5F6161;
+}
+.container-oppcard_1{
+    position: absolute;
+    width: 315px;
+    height: 213px;
+    left: 30px;
+    top: 329px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(34, 47, 62, 0.05);
+}
+.container-oppcard_2{
+    position: absolute;
+    width: 315px;
+    height: 213px;
+    left: 30px;
+    top: 572px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(34, 47, 62, 0.05);
+}
+.container-oppcard_3{
+    position: absolute;
+    width: 315px;
+    height: 213px;
+    left: 30px;
+    top: 815px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(34, 47, 62, 0.05);
+}
+.oppCard-text-mobile_1{
+    display: block;
+    position: absolute;
+    width: 213px;
+    height: 36px;
+    left: 30px;
+    top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px
+}
+.oppCard-text-mobile_2{
+    display: block;
+    position: absolute;
+    width: 235px;
+    height: 24px;
+    left: 30px;
+    top: 86px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #5F6161;
+
+}
+.oppCard-text{
+    display: none;
+}
+
+.see-detail{  
+    box-sizing: border-box;
+    position: absolute;
+    width: 134px;
+    height: 43px;
+    left: 30px;
+    top: 130px;
+    background: #FFFFFF;
+    border: 1px solid #16774A;
+    border-radius: 1000px;
+}
+
+.see-text{ 
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 28px;
+    top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px; 
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #16774A;
+  }
+  .footer-carrer{
+    position: absolute;
+    width: 1920px;
+    height: 532px;
+    left: 0px;
+    top: 3213px;
+    background: #004632;
+    }
+
+    /* Ready Part */
+
+.container-ready{
+    width: 375px;
+    height: 631px;
+    background: #16774A;
+}
+
+.readyPart-text{
+    position: absolute;
+    width: 315px;
+    height: 144px;
+    left: 30px;
+    top: 243px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.readyPart-sendUs{
+    position: absolute;
+    width: 315px;
+    height: 36px;
+    left: 30px;
+    top: 417px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.container-icon-readyPart{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 30px;
+    top: 483px;
+    background: #1c6350;
+   
+}
+.gmail-readypart{
+    position: absolute;
+    width: 195px;
+    height: 24px;
+    left: 98px;
+    top: 495px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+.image-ready-opprtunities{
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    left: 65px;
+    top: -127px; 
+}
+.icon-mail-readypart{
+    font-size: 24px;
+    color: white;
+    
+ }
+
+/* Rectangle */
+
+.squad_career_1{ 
+      display: none;
+
+}
+.squad_career_2{
+       display: none;
+
+}
+.squad_career_3{
+      display: none;
+
+}
+.squad_career_4{
+      display: none;
+
+}
+.squad_career_5{
+      display: none;
+
+}
+.squad_career_6{
+      display: none;
+
+}
+
+
+
+.squad_ready_01{
+       display: none;
+
+}
+.squad_ready_02{
+   display: none;
+
+}
+.squad_ready_03{
+    display: none;
+}
+.line-career{
+display: none;
+} 
+}

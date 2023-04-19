@@ -1,5 +1,4 @@
-/** @format */
-
+import { useNavigate } from "react-router";
 import "./styles.css";
 import logo from "../../assets/images/logo.png";
 import { Col, Row } from "antd";
@@ -14,6 +13,7 @@ const Header = (props) => {
   };
   console.log(subMenuOpen);
 
+  const navigate = useNavigate();
   return (
     <>
       <div className="navbar">
@@ -73,7 +73,7 @@ const Header = (props) => {
           </div>
 
           <div className="title-header">
-            <p className="title">Careers</p>
+            <p className="title" onClick={() => navigate("/career")}>Careers</p>
             <div className="line"></div>
           </div>
           <div className="button-header">

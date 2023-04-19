@@ -290,6 +290,7 @@ color: #1D1D1D;
     height: 29.16vw;
     background-color: #16774A;
     position: relative;
+    z-index: 1;
 }
 .readyPart-text{
     position: absolute;

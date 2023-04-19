@@ -808,7 +808,7 @@
 }
 
 /* Responsive */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
 
   /* Service */
   .service {
@@ -1409,7 +1409,7 @@
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 481px) {
+@media screen and (min-width: 377px) and (max-width: 481px) {
   /* Service */
   .service {
     width: 100%;

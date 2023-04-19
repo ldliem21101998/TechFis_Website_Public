@@ -342,7 +342,7 @@
     height: 1vw;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .mainfooter {
         width: 100%;
         height: 1034px;
@@ -585,7 +585,7 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 481px) {
+@media screen and (min-width: 377px) and (max-width: 481px) {
     .mainfooter {
         width: 100%;
         height: 1034px;

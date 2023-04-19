@@ -163,15 +163,17 @@
     z-index: 1;
 }
 .card-ourteam-description{
-    width: 8.85vw;
+    width: 8.8vw;
     height: 2.5vw;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.84vw;
+    font-size: 0.80vw;
     line-height: 1.25vw;
     letter-spacing: 0.015625vw;
     color: #1D1D1D;
+    margin-top: 1.04vw;
+    margin-left: 1.04vw;
 }
 
 /* Opportunities */
@@ -760,7 +762,7 @@ color: #5F6161;
 
 .see-text{ 
     position: absolute;
-    width: 80px;
+    width: 85px;
     height: 23px;
     left: 28px;
     top: 10px;
@@ -899,7 +901,7 @@ display: none;
 } 
 }
 
-@media screen and (min-width: 377px) and (max-width: 414px) {
+@media screen and (min-width: 377px) and (max-width: 481px) {
     /* Our Team */
     .container-career{
         background: #F1F6F6;
@@ -1186,7 +1188,7 @@ display: none;
     
     .see-text{ 
         position: absolute;
-        width: 80px;
+        width: 85px;
         height: 23px;
         left: 28px;
         top: 10px;

@@ -1,3 +1,5 @@
+/** @format */
+
 import {
   PhoneOutlined,
   MailOutlined,
@@ -14,7 +16,12 @@ const CaseCard = (props) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <div className="button_case">Read more <ArrowRightOutlined style={{ position: 'absolute', top: 6, left: 80, }} /></div>
+        <div className="button_case">
+          Read more
+          <ArrowRightOutlined
+            style={{ position: "absolute", top: "0.3vw", left: "5.8vw" }}
+          />
+        </div>
       </div>
     </>
   );

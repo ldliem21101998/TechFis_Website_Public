@@ -265,7 +265,144 @@
         background: #9C0037;
 
         border-top: 7px solid transparent;
-        border-right: 7px solid #16774A;;
-        border-bottom: 1px solid #16774A;;
+        border-right: 7px solid #16774A;
+        ;
+        border-bottom: 1px solid #16774A;
+        ;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 481px) {
+
+    /* Service Card */
+    .service-card {
+        width: 315px;
+        height: 315px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(34, 47, 62, 0.1);
+    }
+
+    .service-card_icon {
+        width: 55px;
+        height: 55px;
+        left: 30px;
+        top: 40px;
+    }
+
+    .service-card_icon .eclipse {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        background: #E7F5EF;
+    }
+
+    .eclipse .eclipse-icon {
+        position: absolute;
+        width: 27.5px;
+        height: 27.5px;
+        left: 13.75px;
+        top: 13.75px;
+    }
+
+    .service-card_title {
+        left: 100px;
+        top: 41px;
+        width: 185px;
+        height: 54px;
+    }
+
+    .service-card_title h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.5px;
+        color: #000000;
+    }
+
+    .service-card_seperator {
+        top: 125px;
+        left: 30px;
+        width: 255px;
+        height: 0px;
+        border: 1px solid #DEDEDE;
+    }
+
+    .service-card_description {
+        top: 155px;
+        left: 30px;
+        width: 255px;
+        height: 120px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 170%;
+        color: #5F6161;
+    }
+
+    .service-card_badge_isNew {
+        top: 0;
+        left: 246px;
+        width: 75px;
+        height: 40px;
+    }
+
+    .badge_isNew_retangle_1 {
+        width: 75px;
+        height: 28.57px;
+        left: 0;
+        top: 5.71px;
+        background: #CE0F69;
+    }
+
+    .retangle_1_arrow {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid white;
+    }
+
+    .badge_isNew_retangle_1 h2 {
+        position: absolute;
+        top: 6.29px;
+        left: 26.17px;
+        width: 35px;
+        height: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .badge_isNew_retangle_2 {
+        width: 0;
+        height: 0;
+        left: 69px;
+        top: 0;
+        background: #9C0037;
+
+        border-bottom: 7px solid transparent;
+        border-right: 7px solid #16774A;
+        border-top: 1px solid #16774A;
+    }
+
+    .badge_isNew_retangle_3 {
+        width: 0;
+        height: 0;
+        left: 69px;
+        top: 34px;
+        background: #9C0037;
+
+        border-top: 7px solid transparent;
+        border-right: 7px solid #16774A;
+        ;
+        border-bottom: 1px solid #16774A;
+        ;
     }
 }

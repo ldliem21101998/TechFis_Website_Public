@@ -74,7 +74,7 @@ const Header = (props) => {
 
             <li className="nav-li">
               <a
-                href="/#main_career"
+                href="/career/#main_career"
                 onClick={() => navigate("/career")}
               >{t("Career")}</a>
             </li>

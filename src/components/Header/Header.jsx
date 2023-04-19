@@ -14,8 +14,8 @@ const Header = (props) => {
   console.log(subMenuOpen);
 
   const navigate = useNavigate();
-  const onClickMenuItem = () => {
-    navigate("/career")
+  const onClickMenuItem = (path) => {
+    navigate(path)
     toggleMenu(1)
   }
   return (
@@ -77,7 +77,7 @@ const Header = (props) => {
           </div>
 
           <div className="title-header">
-            <p className="title" onClick={() => onClickMenuItem()}>Careers</p>
+            <p className="title" onClick={() => onClickMenuItem("/career")}>Careers</p>
             <div className="line"></div>
           </div>
           <div className="button-header">

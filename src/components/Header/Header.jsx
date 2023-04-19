@@ -49,7 +49,7 @@ const Header = (props) => {
           <ul id="nav">
             <li className="nav-li">
               <a
-                href="#footer_id"
+                href="#_slogan"
                 onClick={() => navigate("/")}
               >{t("About Us")}</a>
             </li>
@@ -95,7 +95,7 @@ const Header = (props) => {
           <div className="title-header">
             <a className="title"
               onClick={() => onClickMenuItem("/")}
-              href="#footer_id"
+              href="#_slogan"
             >About Us</a>
           </div>
           <div className="title-header">

@@ -94,7 +94,7 @@ const Home = () => {
       </div>
 
       {/* Slogan */}
-      <div className="slogan">
+      <div className="slogan" id="_slogan">
         <div className="slogan-ornaments">
           <div className="slogan-retangle_1"></div>
           <div className="slogan-retangle_2"></div>

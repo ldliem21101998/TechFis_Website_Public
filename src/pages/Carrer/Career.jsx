@@ -26,7 +26,7 @@ const Career = () => {
       {/* Our Team */}
 
       {/* our Team top */}
-      <div className="ourteam-top">
+      <div className="ourteam-top" id="main_career">
         <p className="ourteam-title">Our Team</p>
         <p className="ourteam-description">
           Our company is a young and dynamic company with a start-up environment

@@ -4,7 +4,7 @@ import logo from "../../assets/images/logo.png";
 import { Col, Row } from "antd";
 import { withTranslation } from "react-i18next";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 const Header = (props) => {
   const { t } = props;
   const [subMenuOpen, setSubMenuOpen] = useState(-1);
@@ -18,6 +18,20 @@ const Header = (props) => {
     navigate(path)
     toggleMenu(1)
   }
+
+  //Sticky Header
+  useEffect(() => {
+    window.addEventListener('scroll', isSticky);
+    return () => {
+      window.removeEventListener('scroll', isSticky);
+    };
+  });
+
+  const isSticky = (e) => {
+    const header = document.querySelector('.navbar');
+    const scrollTop = window.scrollY;
+    scrollTop >= 100 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+  };
   return (
     <>
       <div className="navbar">
@@ -34,23 +48,41 @@ const Header = (props) => {
         <nav className="site-navigation">
           <ul id="nav">
             <li className="nav-li">
-              <a href="#footer_id">{t("About Us")}</a>
+              <a
+                href="#footer_id"
+                onClick={() => navigate("/")}
+              >{t("About Us")}</a>
             </li>
             <li className="nav-li">
-              <a href="#_service">{t("Services")}</a>
+              <a
+                href="#_service"
+                onClick={() => navigate("/")}
+              >{t("Services")}</a>
             </li>
             <li className="nav-li">
-              <a href="#case-study">{t("Case Studies")}</a>
+              <a
+                href="#case-study"
+                onClick={() => navigate("/")}
+              >{t("Case Studies")}</a>
             </li>
             <li className="nav-li">
-              <a href="#industries">{t("Industries")} </a>
+              <a
+                href="#industries"
+                onClick={() => navigate("/")}
+              >{t("Industries")} </a>
             </li>
 
             <li className="nav-li">
-              <a href="/career">{t("Career")}</a>
+              <a
+                href="/#main_career"
+                onClick={() => navigate("/career")}
+              >{t("Career")}</a>
             </li>
             <li className="nav-li">
-              <a href="#_contact">{t("Contact Us")}</a>
+              <a
+                href="#_contact"
+                onClick={() => navigate("/")}
+              >{t("Contact Us")}</a>
             </li>
           </ul>
         </nav>
@@ -61,27 +93,45 @@ const Header = (props) => {
           </div>
 
           <div className="title-header">
-            <p className="title">About Us</p>
+            <a className="title"
+              onClick={() => onClickMenuItem("/")}
+              href="#footer_id"
+            >About Us</a>
           </div>
           <div className="title-header">
-            <p className="title">Services</p>
+            <a className="title"
+              onClick={() => onClickMenuItem("/")}
+              href="#_service"
+            >Services</a>
             <div className="line"></div>
           </div>
           <div className="title-header">
-            <p className="title">Case Studies</p>
+            <a className="title"
+              onClick={() => onClickMenuItem("/")}
+              href="#case-study"
+            >Case Studies</a>
             <div className="line"></div>
           </div>
           <div className="title-header">
-            <p className="title">Industries</p>
+            <a className="title"
+              onClick={() => onClickMenuItem("/")}
+              href="#industries"
+            >Industries</a>
             <div className="line"></div>
           </div>
 
           <div className="title-header">
-            <p className="title" onClick={() => onClickMenuItem("/career")}>Careers</p>
+            <a className="title"
+              onClick={() => onClickMenuItem("/career")}
+              href="#main_career"
+            >Careers</a>
             <div className="line"></div>
           </div>
           <div className="button-header">
-            <p className="Button-title">Contact Us</p>
+            <a className="Button-title"
+              onClick={() => onClickMenuItem("/")}
+              href="#_contact"
+            >Contact Us</a>
           </div>
         </div>
       </div>

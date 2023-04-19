@@ -153,7 +153,7 @@ const Home = () => {
       </div>
 
       {/* CaseCard */}
-      <div className="studies-case">
+      <div className="studies-case" id="case-study">
         <div className="squad_1"></div>
         <div className="squad_2"></div>
         <p className="case-title">Case Studies</p>
@@ -309,7 +309,7 @@ const Home = () => {
       </div>
 
       {/* Contact */}
-      <div className="container-contact" id="contact">
+      <div className="container-contact" id="_contact">
         <div class="squad_5"></div>
         <div class="squad_6"></div>
         <div class="squad_7"></div>

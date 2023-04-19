@@ -9,7 +9,7 @@ const Footer = (props) => {
 
   return (
     <>
-      <div className="mainfooter">
+      <div className="mainfooter" id="footer_id">
         <div className="mainfooter-ornaments_1">
           <div className="mainfooter-retangle_1"></div>
           <div className="mainfooter-retangle_2"></div>

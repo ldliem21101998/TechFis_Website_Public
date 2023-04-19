@@ -33,7 +33,7 @@ const Footer = (props) => {
           <div className="mainfooter-company_1">Company</div>
           <div className="mainfooter-company_2">About Us</div>
           <div className="mainfooter-company_3">Services</div>
-          <div className="mainfooter-company_4">Carrer</div>
+          <div className="mainfooter-company_4">Career</div>
           <div className="mainfooter-company_5">Contact Us</div>
         </div>
         <div className="mainfooter-legal">

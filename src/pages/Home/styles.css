@@ -800,6 +800,8 @@
   top: 27.7vw;
   background: #139C5D;
   border-radius: 100px;
+  color: white;
+  font-size: 0.72vw;
 }
 
 .contact_icon {
@@ -1287,6 +1289,7 @@
     padding: 15px 25px;
     gap: 10px;
     color: white;
+    font-size: 14px;
   }
 
   .contact_icon {
@@ -1887,6 +1890,7 @@
     padding: 15px 25px;
     gap: 10px;
     color: white;
+    font-size: 14px;
   }
 
   .contact_icon {

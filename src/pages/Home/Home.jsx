@@ -249,7 +249,7 @@ const Home = () => {
                 src={img6}
                 style={{ width: "18.22vw", height: "18.22vw" }}
               />
-              <p className="text-carousel-media">Gameming</p>
+              <p className="text-carousel-media">Gaming</p>
             </div>
             <div className="card-image-carousel">
               <img
@@ -335,7 +335,7 @@ const Home = () => {
           <p className="contact-title-form">We are happy to answers</p>
           <p className="contact-label-name">Your Name</p>
           <input type="text" id="name" name="name" className="input_yourname" />
-          <p className="contact-label-email">Email Adderss</p>
+          <p className="contact-label-email">Email Address</p>
           <input type="text" id="name" name="name" className="input_email" />
           <p className="contact-label-message">Message</p>
           <input type="text" id="name" name="name" className="input_message" />

@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import routes from "../utils/routes"
+import { HeaderCom, FooterCom } from "../components"
 
 const DefaultLayout = () => {
 
@@ -23,9 +24,11 @@ const DefaultLayout = () => {
 
     return (
         <>
+            <HeaderCom />
             <Routes>
                 {showContentMenu(routes)}
             </Routes>
+            <FooterCom />
         </>
     )
 }

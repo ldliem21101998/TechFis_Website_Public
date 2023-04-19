@@ -72,8 +72,6 @@ const Home = () => {
 
   return (
     <>
-      <HeaderCom />
-
       {/* Banner */}
       <div className="container-banner">
         <p className="banner-title">
@@ -347,8 +345,6 @@ const Home = () => {
           </Button>
         </div>
       </div>
-
-      <FooterCom />
     </>
   );
 };

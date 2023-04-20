@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.button-header .Button-title {
+    text-decoration: none !important;
+}
+
 #nav li a {
     color: rgb(30, 33, 50);
     text-decoration: none;
@@ -79,6 +83,10 @@
 @media only screen and (max-width: 376px) {
     .title-header .title {
         text-decoration: none;
+    }
+
+    .button-header .Button-title {
+        text-decoration: none !important;
     }
 
     #nav li a {
@@ -230,6 +238,10 @@
 @media screen and (min-width: 377px) and (max-width: 481px) {
     .title-header .title {
         text-decoration: none;
+    }
+
+    .button-header .Button-title {
+        text-decoration: none !important; 
     }
 
     #nav li a {
